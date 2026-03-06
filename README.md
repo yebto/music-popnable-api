@@ -102,7 +102,7 @@ Register at [yeb.to](https://yeb.to) with Google OAuth to get a free API key.
 
 ## Support
 
-- Documentation: [docs.yeb.to](https://docs.yeb.to)
+- API Documentation: [https://yeb.to/api/music-popnable](https://yeb.to/api/music-popnable)
 - Email: support@yeb.to
 - Issues: [GitHub Issues](https://github.com/yebto/music-popnable-api/issues)
 
