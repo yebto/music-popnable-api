@@ -1,0 +1,53 @@
+{
+    "name": "yebto/music-popnable-api",
+    "description": "PHP SDK for the YEB Music API (Popnable). Search songs, trends, charts and artists.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "yeb",
+        "api",
+        "sdk",
+        "laravel",
+        "php",
+        "music",
+        "charts",
+        "trends",
+        "artists"
+    ],
+    "homepage": "https://yeb.to",
+    "support": {
+        "email": "support@yeb.to",
+        "issues": "https://github.com/yebto/music-popnable-api/issues",
+        "source": "https://github.com/yebto/music-popnable-api"
+    },
+    "authors": [
+        {
+            "name": "NETOX Ltd.",
+            "email": "support@yeb.to",
+            "homepage": "https://yeb.to",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "yebto/api-client": "^1.0"
+    },
+    "suggest": {
+        "illuminate/support": "Required for Laravel Facade & ServiceProvider integration (^10.0|^11.0|^12.0)"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yebto\\MusicPopnableAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yebto\\MusicPopnableAPI\\MusicPopnableAPIServiceProvider"
+            ],
+            "aliases": {
+                "MusicPopnableAPI": "Yebto\\MusicPopnableAPI\\Facades\\MusicPopnableAPI"
+            }
+        }
+    }
+}
